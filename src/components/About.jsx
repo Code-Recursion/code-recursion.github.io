@@ -32,7 +32,7 @@ const About = () => {
             <div className="justify-content-center">
               <h6 className="mx-auto text-center">
                 Hello! i am Ajay Singh, A pre
-                final year Student Persuing B.Tech
+                final year Student Pursuing B.Tech
                 with IT stream. I love to learn
                 about new things and sharing what
                 i learn. And yes i can Code!

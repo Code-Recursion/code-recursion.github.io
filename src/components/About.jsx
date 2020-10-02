@@ -35,18 +35,16 @@ const About = () => {
               <h2 className="hero_text text-center font-font-weight-bold">
                 Web Developer, Programmer
               </h2>
-
-              <div className="justify-content-center">
-                <h6 className="mx-auto text-center">
-                  Hello! i am Ajay Singh, A pre
-                  final year Student Pursuing
-                  B.Tech with IT stream. I love to
-                  learn about new things and
-                  sharing what i learn. And yes i
-                  can Code!
-                </h6>
-              </div>
-
+            <div className="justify-content-center">
+              <h6 className="mx-auto text-center">
+                Hello! i am Ajay Singh, A pre
+                final year Student Pursuing B.Tech
+                with IT stream. I love to learn
+                about new things and sharing what
+                i learn. And yes i can Code!
+              </h6>
+            </div>
+            
               <div className="container_portait text-center mt-5">
                 <img src={Portrait}></img>
               </div>

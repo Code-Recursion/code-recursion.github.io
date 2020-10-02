@@ -9,6 +9,10 @@
   #about-2 {
     margin-bottom: 1rem;
   }
+
+  .cube {
+    display:none;
+  }
 }
 
 @media (min-width: 1500px) {

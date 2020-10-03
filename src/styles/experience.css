@@ -6,3 +6,9 @@
     border:.1rem solid grey;
     background:#6b6b6b;
 }
+
+.gcloud img {
+    position:relative;
+    margin:2rem;
+    transform: scale(2);
+}

@@ -53,11 +53,11 @@ const Experience = () => {
                 />
               </a>
               <p className="text-muted d-3 text-center pt-4 mb-2">
-                August 2020 - present
+                August 2020 - October 2020
               </p>
             </div>
             <hr className="horizontal-line" />
-            <div className="gcloud mt-4 justify-content-center text-center">
+            <div className="gcloud mt-4 mb-5 justify-content-center text-center">
               <h4 className="text-center mb-4">
                 Google Cloud Facilitator at BIST,
                 Bhopal
@@ -72,7 +72,7 @@ const Experience = () => {
                 />
               </a>
               <p className="text-muted d-3 text-center">
-                #30DaysOfGoogleCloud | 1st - 31st October 2020
+                #30DaysOfGoogleCloud | September 2020 - October 2020
               </p>
             </div>
           </div>

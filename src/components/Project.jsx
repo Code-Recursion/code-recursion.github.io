@@ -14,7 +14,7 @@ import "../styles/project.css";
 const Project = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid mb-5">
         <div className="row">
           <div className="col-11  mx-auto">
             <h1 className="text-center">
@@ -306,24 +306,26 @@ const Project = () => {
                   </div>
                 </div>
                 <div className="col-md-4 col-xs-12 mt-4 mb-4">
-                  <div className="card mt-5">
-                    <div className="image card-img">
-                      <div class="card-body">
-                        <p class="card-text">
-                          <h5 className="text-center text-bolder  mb-3">
-                            Star My Projects and
-                            Follow me on Github 
+                  <a href="https://github.com/code-recursion" target="_blank">
+                    <div className="card mt-5">
+                      <div className="image card-img">
+                        <div class="card-body">
+                          <p class="card-text">
+                            <h5 className="text-center text-bolder  mb-3">
+                              Star My Projects and
+                              Follow me on Github
                           </h5>
-                        </p>
-                        <div className="container d-flex m-0 justify-content-center">
-                          <img
-                            className=" text-center m-auto align-item-center mx-2"
-                            src={github}
-                          ></img>
+                          </p>
+                          <div className="container d-flex m-0 justify-content-center">
+                            <img
+                              className=" text-center m-auto align-item-center mx-2"
+                              src={github}
+                            ></img>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>

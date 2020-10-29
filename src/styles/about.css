@@ -3,7 +3,8 @@ html {
   user-select: none;
 }
 
-body {z-index:100;
+body {
+  z-index:100;
   overflow: hidden;
 }
 
@@ -119,5 +120,43 @@ body {z-index:100;
     transform: scale(20) rotate(960deg)
       translate(-50%, -50%);
     opacity: 0;
+  }
+}
+
+section {
+  height: 70vh;
+  width: 100%;
+}
+
+.animation {
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  height: 100%;
+  width:100%;
+  background:#fff;
+  overflow: hidden;
+  position:relative;
+  filter: blur(10px) contrast(20);
+}
+
+.gooey .balls{
+  background: #000;
+  width:80px;
+  height:80px;
+  display:inline-block;
+  border-radius: 50%;
+  animation: animate 5s ease-in-out infinite;
+}
+
+@keyframes animate 
+{
+  0%, 100% 
+  {
+    margin:10px;
+  }
+  50% 
+  {
+    margin:0 -30px;
   }
 }

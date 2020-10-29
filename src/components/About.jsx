@@ -35,16 +35,16 @@ const About = () => {
               <h2 className="hero_text text-center font-font-weight-bold">
                 Web Developer, Programmer
               </h2>
-            <div className="justify-content-center">
-              <h6 className="mx-auto text-center">
-                Hello! i am Ajay Singh, A pre
-                final year Student Pursuing B.Tech
-                with IT stream. I love to learn
-                about new things and sharing what
-                i learn. And yes i can Code!
+              <div className="justify-content-center">
+                <h6 className="mx-auto text-center">
+                  Hello! i am Ajay Singh, A pre
+                  final year Student Pursuing B.Tech
+                  with IT stream. I love to learn
+                  about new things and sharing what
+                  i learn. And yes i can Code!
               </h6>
-            </div>
-            
+              </div>
+
               <div className="container_portait text-center mt-5">
                 <img src={Portrait}></img>
               </div>
@@ -221,6 +221,31 @@ const About = () => {
           </div>
         </div>
       </div>
+      <section>
+        
+        <div className="heading-exp">
+          <h1 className="text-center position-relative experiments-heading">Experimental</h1>
+          
+          <div className="container mt-3 p-0 d-flex justify-content-center">
+            <div class="alert alert-info alert-dismissible fade show w-75" role="alert">
+              <p class="text-center p-0 m-0">Do you know you can drag'em ?</p>
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div className="animation">
+          <div className="gooey">
+            <div className="balls"></div>
+            <div className="balls"></div>
+            <div className="balls"></div>
+            <div className="balls"></div>
+            <div className="balls"></div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

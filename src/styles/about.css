@@ -4,40 +4,44 @@ html {
 }
 
 body {
-  z-index:100;
+  z-index: 100;
   overflow: hidden;
 }
 
 .container_portait img {
-  z-index:100 !important;
+  z-index: 100 !important;
   width: 10rem;
 }
 
 .container_arrow img {
-  z-index:100;
+  z-index: 100;
   width: 3rem;
 }
-#about-2 {
+
+section {
+  height: 100vh;
+}
+
+#arrow-to-up {
   transform: rotate(180deg);
 }
 
 .know_me_more {
-  padding-top:.5rem;
+  padding-top: 7.5rem;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
-  z-index:1;
+  z-index: 1;
   background-color: #fff;
   position: relative;
   height: 100%;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
-
 }
 
 .cube {
-  z-index:1;
+  z-index: 1;
   opacity: 0.1;
   position: absolute;
   top: 80vh;
@@ -123,40 +127,38 @@ body {
   }
 }
 
-section {
-  height: 70vh;
+.section-experimental {
+  height: 50vh;
   width: 100%;
 }
 
 .animation {
   align-items: center;
   justify-content: center;
-  display:flex;
+  display: flex;
   height: 100%;
-  width:100%;
-  background:#fff;
+  width: 100%;
+  background: #fff;
   overflow: hidden;
-  position:relative;
+  position: relative;
   filter: blur(10px) contrast(20);
 }
 
-.gooey .balls{
+.gooey .balls {
   background: #000;
-  width:80px;
-  height:80px;
-  display:inline-block;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
   border-radius: 50%;
   animation: animate 5s ease-in-out infinite;
 }
 
-@keyframes animate 
-{
-  0%, 100% 
-  {
-    margin:10px;
+@keyframes animate {
+  0%,
+  100% {
+    margin: 10px;
   }
-  50% 
-  {
-    margin:0 -30px;
+  50% {
+    margin: 0 -30px;
   }
 }

@@ -29,69 +29,74 @@ const About = () => {
         <div className="cube"></div>
         <div className="cube"></div>
 
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-11  mx-auto">
-              <h2 className="hero_text text-center font-font-weight-bold">
-                Web Developer, Programmer
-              </h2>
-              <div className="justify-content-center">
-                <h6 className="mx-auto text-center">
-                  Hello! i am Ajay Singh, A pre
-                  final year Student Pursuing B.Tech
-                  with IT stream. I love to learn
-                  about new things and sharing what
-                  i learn. And yes i can Code!
-              </h6>
-              </div>
+        <section className="section-hero">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-11  mx-auto">
+                <h2 className="hero_text text-center font-font-weight-bold">
+                  Web Developer, Programmer
+                </h2>
+                <div className="justify-content-center mx-auto w-50">
+                  <h6 className="mx-auto text-center">
+                    Hello! i am Ajay Singh, A pre
+                    final year Student Pursuing B.Tech
+                    with IT stream. I love to learn
+                    about new things and sharing what
+                    i learn. And yes i can Code!
+                </h6>
+                </div>
 
-              <div className="container_portait text-center mt-5">
-                <img src={Portrait}></img>
-              </div>
+                <div className="container_portait text-center mt-5">
+                  <img src={Portrait}></img>
+                </div>
 
-              <div className="social_links  mt-4 d-flex justify-content-center">
-                <a
-                  href="https://www.linkedin.com/in/hello-ajay-singh/"
-                  target="_blank"
-                >
-                  <img
-                    className="m-1"
-                    src={Linkedin}
-                  ></img>
-                </a>
+                <div className="social_links  mt-4 d-flex justify-content-center">
+                  <a
+                    href="https://www.linkedin.com/in/hello-ajay-singh/"
+                    target="_blank"
+                  >
+                    <img
+                      className="m-1"
+                      src={Linkedin}
+                    ></img>
+                  </a>
 
-                <a
-                  href="https://github.com/Code-Recursion"
-                  target="_blank"
-                >
-                  <img
-                    className="m-1"
-                    src={Github}
-                  ></img>
-                </a>
+                  <a
+                    href="https://github.com/Code-Recursion"
+                    target="_blank"
+                  >
+                    <img
+                      className="m-1"
+                      src={Github}
+                    ></img>
+                  </a>
 
-                <a
-                  href="mailto:helloajaysingh1@gmail.com?subject=Hello&body=Hello Ajay!"
-                  target="_blank"
-                >
-                  <img
-                    className="m-1"
-                    src={Email}
-                  ></img>
-                </a>
-              </div>
+                  <a
+                    href="mailto:helloajaysingh1@gmail.com?subject=Hello&body=Hello Ajay!"
+                    target="_blank"
+                  >
+                    <img
+                      className="m-1"
+                      src={Email}
+                    ></img>
+                  </a>
+                </div>
 
-              <div className="container_arrow mb-5 mt-md-5 mt-xs-4 d-flex justify-content-center  floating arrow-down">
-                <a href="#about-2">
-                  <img
-                    className="mt-md-5"
-                    src={Arrow}
-                  ></img>
-                </a>
+                <div className="container_arrow mb-5 mt-md-5 mt-xs-4 d-flex justify-content-center  floating arrow-down">
+                  <a href="#about-2">
+                    <img
+                      className="mt-md-5"
+                      src={Arrow}
+                    ></img>
+                  </a>
+                </div>
               </div>
             </div>
+          </div>    
+        </section>
+        </div>
 
-            <div className="col-11  mt-5 mx-auto">
+       <section id="about-2"><div className="col-11  mt-5 mx-auto">
               <h2
                 className="know_me_more mt-5 text-center font-font-weight-bold"
                 id="know_more"
@@ -206,28 +211,15 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div className="container_arrow my-5 d-flex justify-content-center  floating arrow-up">
-                <a href="#about1">
-                  <img
-                    id="about-2"
-                    className=""
-                    src={Arrow}
-                  ></img>
-                </a>
-              </div>
+              </div>              
             </div>
-          </div>
-        </div>
-      </div>
-      <section>
-        
+           </section>
+          
+            <section class="section-experimental">  
         <div className="heading-exp">
           <h1 className="text-center position-relative experiments-heading">Experimental</h1>
-          
           <div className="container mt-3 p-0 d-flex justify-content-center">
-            <div class="alert alert-info alert-dismissible fade show w-75" role="alert">
+            <div class="alert alert-info alert-dismissible fade show w-75 d-lg-block d-none" role="alert">
               <p class="text-center p-0 m-0">Do you know you can drag'em ?</p>
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -245,6 +237,15 @@ const About = () => {
             <div className="balls"></div>
           </div>
         </div>
+      
+        <div className="container_arrow mb-5 d-flex justify-content-center floating arrow-up">
+          <a href="#about1">
+            <img id="arrow-to-up"
+              src={Arrow}
+            ></img>
+          </a>
+        </div>
+      
       </section>
     </>
   );

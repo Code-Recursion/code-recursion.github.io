@@ -11,7 +11,20 @@
   }
 
   .cube {
-    display:none;
+    display: none;
+  }
+
+  .animation .ball_three,
+  .ball_four,
+  .ball_five {
+    display: none !important;
+  }
+
+  .section-hero {
+    height:60vh !important;
+  }
+  .section-experimental {
+      margin-top:15rem !important;
   }
 }
 
@@ -21,12 +34,11 @@
   }
 
   .hero_text {
-    margin-top:5rem;
+    margin-top: 5rem;
   }
 
   #know_more {
-    margin-bottom:10rem !important;
-    font-size:3rem;
-
+    margin-bottom: 10rem !important;
+    font-size: 3rem;
   }
 }

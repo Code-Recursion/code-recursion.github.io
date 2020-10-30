@@ -36,7 +36,7 @@ const About = () => {
                 <h2 className="hero_text text-center font-font-weight-bold">
                   Web Developer, Programmer
                 </h2>
-                <div className="justify-content-center mx-auto w-50">
+                <div className="justify-content-center mx-auto w-lg-50 w-100">
                   <h6 className="mx-auto text-center">
                     Hello! i am Ajay Singh, A pre
                     final year Student Pursuing B.Tech
@@ -215,7 +215,7 @@ const About = () => {
             </div>
            </section>
           
-            <section class="section-experimental">  
+        <section className="section-experimental">  
         <div className="heading-exp">
           <h1 className="text-center position-relative experiments-heading">Experimental</h1>
           <div className="container mt-3 p-0 d-flex justify-content-center">
@@ -230,11 +230,11 @@ const About = () => {
         
         <div className="animation">
           <div className="gooey">
-            <div className="balls"></div>
-            <div className="balls"></div>
-            <div className="balls"></div>
-            <div className="balls"></div>
-            <div className="balls"></div>
+            <div className="balls ball_one"></div>
+            <div className="balls ball_two"></div>
+            <div className="balls ball_three"></div>
+            <div className="balls ball_four"></div>
+            <div className="balls ball_five"></div>
           </div>
         </div>
       

@@ -4,7 +4,7 @@ textarea {
 }
 
 .btn_send {
-  border: 0.15rem solid #7510f7;
+  border: 0.15rem solid var(--purple);
   width: fit-content;
   border-radius: 3rem;
   padding: 0.2rem 1rem !important;
@@ -16,7 +16,7 @@ textarea {
 }
 
 .btn_send:hover {
-  background: #7510f7;
+  background: var(--purple);
   color: #fff !important;
 }
 
@@ -38,7 +38,7 @@ input.form-control:focus,
 input[type="text"]:focus,
 input[type="email"]:focus {
   outline: none !important;
-  border: 1px solid #7510f7 !important    ;
+  border: 1px solid var(--purple) !important    ;
   box-shadow: none;
   outline: none !important;
   transition: 0.3s ease-in;

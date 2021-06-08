@@ -1,15 +1,4 @@
-.rmgx img {
-    width:10rem;
-}
-
 .horizontal-line {
-    border:.1rem solid grey;
-    background:#6b6b6b;
+  border: 0.1rem solid grey;
+  background: #6b6b6b;
 }
-
-.gcloud img {
-    position:relative;
-    margin:2rem;
-    transform: scale(2);
-}
-

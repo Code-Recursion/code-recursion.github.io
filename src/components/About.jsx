@@ -34,13 +34,11 @@ const About = () => {
             <div className='row'>
               <div className='col-11  mx-auto'>
                 <h2 className='hero_text text-center font-font-weight-bold'>
-                  Web Developer, Programmer
+                  Hi i'm Ajay Singh, 
                 </h2>
                 <div className='justify-content-center mx-auto w-lg-50 w-100'>
-                  <h6 className='mx-auto text-center'>
-                    Hello! i am Ajay Singh, A pre final year Student Pursuing
-                    B.Tech with IT stream. I love to learn about new things and
-                    sharing what i learn. And yes i can Code!
+                  <h6 className='mx-auto description text-center'>
+                  I am a pre final year student pursuing B.Tech from BIST Bhopal, in Information and Technology stream, seeking strong interest in software development and looking for some exciting opportunities related to the same.
                   </h6>
                 </div>
 
@@ -68,7 +66,7 @@ const About = () => {
                   </a>
                 </div>
 
-                <div className='container_arrow mb-5 mt-md-5 mt-xs-4 d-flex justify-content-center  floating arrow-down'>
+                <div className='container_arrow container_arrow_bottom mb-5 mt-md-5 mt-xs-4 d-flex justify-content-center  floating arrow-down'>
                   <a href='#about-2'>
                     <img className='mt-md-5' src={Arrow}></img>
                   </a>

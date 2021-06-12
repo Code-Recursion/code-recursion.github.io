@@ -13,6 +13,8 @@ textarea {
   background: #fff;
   position: relative;
   top: 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.3s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
 .btn_send:hover {
@@ -35,8 +37,8 @@ input:focus,
 textarea:focus,
 textarea.form-control:focus,
 input.form-control:focus,
-input[type="text"]:focus,
-input[type="email"]:focus {
+input[type='text']:focus,
+input[type='email']:focus {
   outline: none !important;
   border: 1px solid var(--purple) !important    ;
   box-shadow: none;
@@ -44,11 +46,18 @@ input[type="email"]:focus {
   transition: 0.3s ease-in;
 }
 
-input,textarea {
-  outline: none !important  ; 
-  
+input,
+textarea {
+  outline: none !important  ;
 }
 
 .btn_send {
-  outline:none !important;
+  outline: none !important;
+}
+
+.message {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  height: 70vh;
 }

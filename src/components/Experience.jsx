@@ -10,7 +10,7 @@ const Experience = () => {
   const ExperienceData = [
     {
       title: 'Software Development Intern',
-      subtitle: 'Bangalore',
+      subtitle: 'Accolite digital, Bangalore',
       image: ACCOLITE,
       duration: 'February 2021 - August 2021',
       link: 'https://www.accolite.com/',

@@ -68,7 +68,7 @@ const About = () => {
 
                 <div className='container_arrow container_arrow_bottom mb-5 mt-md-5 mt-xs-4 d-flex justify-content-center  floating arrow-down'>
                   <a href='#about-2'>
-                    <img className='mt-md-5' src={Arrow}></img>
+                    <img className='mt-md-2' src={Arrow}></img>
                   </a>
                 </div>
               </div>

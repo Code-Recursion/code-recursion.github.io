@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9bc2116bfecef9db1fbfa402b36711d",
+    "revision": "6d71da56d203ef7d39da464b57107b97",
     "url": "/index.html"
   },
   {
-    "revision": "9567ad6a904ee1f19bfd",
+    "revision": "3d55602ef57fdacb5d27",
     "url": "/static/css/2.75c4ecca.chunk.css"
   },
   {
-    "revision": "64c68ea589bce5c3e2bc",
-    "url": "/static/css/main.f199fdd4.chunk.css"
+    "revision": "6946685824899c78e630",
+    "url": "/static/css/main.1e6ca7bb.chunk.css"
   },
   {
-    "revision": "9567ad6a904ee1f19bfd",
-    "url": "/static/js/2.2b37fda9.chunk.js"
+    "revision": "3d55602ef57fdacb5d27",
+    "url": "/static/js/2.a11bf0a9.chunk.js"
   },
   {
     "revision": "361388382a7cba0b7cd58ae9b81faa0e",
-    "url": "/static/js/2.2b37fda9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a11bf0a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64c68ea589bce5c3e2bc",
-    "url": "/static/js/main.d3f35bfc.chunk.js"
+    "revision": "6946685824899c78e630",
+    "url": "/static/js/main.f79b2a3f.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "889449e31190719bac49e10699663581",
     "url": "/static/media/css-icon.889449e3.svg"
+  },
+  {
+    "revision": "14f09f28326ccdc13fb445a48558457a",
+    "url": "/static/media/dsc-bist.14f09f28.png"
   },
   {
     "revision": "116b120cc84ba80661214360621cd96f",
@@ -108,6 +112,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mlsa-beta.9c3beb84.svg"
   },
   {
+    "revision": "b413f6c433a5c74e82fa3a942e43aee4",
+    "url": "/static/media/movie-pedia.b413f6c4.JPG"
+  },
+  {
     "revision": "48df5dc527eb732cd145920c7f8a403b",
     "url": "/static/media/mysql-icon.48df5dc5.svg"
   },
@@ -116,36 +124,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nodejs-icon.e1e67622.svg"
   },
   {
-    "revision": "b413f6c433a5c74e82fa3a942e43aee4",
-    "url": "/static/media/p-1.b413f6c4.JPG"
+    "revision": "a3721a64e5164817783667d3f2fc41ae",
+    "url": "/static/media/phonebook.a3721a64.png"
   },
   {
     "revision": "f65dbe7d7deeb8a97078d4cf5c334b74",
-    "url": "/static/media/p-2.f65dbe7d.JPG"
-  },
-  {
-    "revision": "c886fb7b11e2a8c0082fff937f9e675f",
-    "url": "/static/media/p-3.c886fb7b.JPG"
-  },
-  {
-    "revision": "95ef9af0db4e4ff759d9d6bda3d7247d",
-    "url": "/static/media/p-4.95ef9af0.jpg"
-  },
-  {
-    "revision": "b42b3fe3b8f03b751b77cecd9534303d",
-    "url": "/static/media/p-5.b42b3fe3.JPG"
-  },
-  {
-    "revision": "50ffe48541e265c1effead9533998885",
-    "url": "/static/media/p-6.50ffe485.JPG"
-  },
-  {
-    "revision": "effdd305c655d7d7a2118055ac70716a",
-    "url": "/static/media/p-7.effdd305.JPG"
-  },
-  {
-    "revision": "b9d5f5817828bbd45b5a425b34e70bb9",
-    "url": "/static/media/p-8.b9d5f581.JPG"
+    "url": "/static/media/portfolio.f65dbe7d.JPG"
   },
   {
     "revision": "1f6a76a4bf66ee1d6bdeab1edc5e2b5c",
@@ -154,5 +138,33 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4563afb8453b8140a16dec8ce3bb9592",
     "url": "/static/media/rmgx-icon.4563afb8.svg"
+  },
+  {
+    "revision": "6d15afd8990353b4ffaee1a133045827",
+    "url": "/static/media/seekers.6d15afd8.png"
+  },
+  {
+    "revision": "a671d9b9cf601649a21dcfd2edeb8519",
+    "url": "/static/media/shortly.a671d9b9.png"
+  },
+  {
+    "revision": "7672f99c1a8776bbe723fde8d1d56f4a",
+    "url": "/static/media/sparky.7672f99c.png"
+  },
+  {
+    "revision": "b9d5f5817828bbd45b5a425b34e70bb9",
+    "url": "/static/media/srms.b9d5f581.JPG"
+  },
+  {
+    "revision": "d8844b8ae45d97ce7e1b0a8f378443aa",
+    "url": "/static/media/system-control.d8844b8a.JPG"
+  },
+  {
+    "revision": "50ffe48541e265c1effead9533998885",
+    "url": "/static/media/tic-tac-toe.50ffe485.JPG"
+  },
+  {
+    "revision": "70b5cd03e590530953c03ee813f9c542",
+    "url": "/static/media/ui-calculator.70b5cd03.jfif"
   }
 ]);
